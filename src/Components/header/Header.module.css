@@ -1,0 +1,29 @@
+.container{
+    padding:50px 30px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.container .heading{
+    margin:0 auto;
+    max-width:500px;
+   color:#000;
+    background-clip: text;
+    font-size: 3.0rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.heading span{
+    background-clip: text;
+    background-image: linear-gradient(to right, #5a73c7,#1369b9);
+    color:transparent
+}
+
+.right img {
+    width:700px;
+}
